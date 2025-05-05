@@ -1,7 +1,9 @@
+
+
 function Kit() {
     return (
         <div>
-            KIT
+            kit
         </div>
     )
 }
