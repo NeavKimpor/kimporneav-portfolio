@@ -73,3 +73,48 @@ html, body, #root {
   font-style: normal;
 }
 
+@media (min-width: 320px) {
+  button {
+    width: 245px;
+  }
+}
+
+
+@media (min-width: 375px) {
+  button {
+    width: 310px;
+  }
+}
+
+@media (min-width: 425px) {
+  .catch {
+    font-size: 6rem;
+  }
+  .catch-b {
+    font-size: 0.9rem;
+  }
+  button {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 400px;
+  }
+  .catch {
+    font-size: 7rem;
+  }
+  .catch-b {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .catch {
+    font-size: 12rem;
+  }
+  .catch-b {
+    font-size: 1.2rem;
+  }
+}

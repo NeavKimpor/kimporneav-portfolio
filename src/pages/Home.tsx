@@ -13,39 +13,45 @@ function Home() {
             <Navibar/>
 
             <div className="px-3 pt-20">
-                <h1 className="catch">Digital <br></br> Designer</h1>
-                <p className="catch-b pb-5 pl-2 pt-4">experienced in<br></br> Web-App Design,<br></br> UX / UI, and Frontend Development.</p>
+                <div className="md:p-10">
+                    <div className="md:flex md:items-end md:justify-start">
+                        <h1 className="catch md:relative">Digital <br></br> Designer</h1>
+                        <p className="catch-b pb-5 pl-2 pt-4">experienced in<br></br> Web-App Design,<br></br> UX / UI, and Frontend Development.</p>
+                    </div>
 
-                <div>
-                    <p className="catch-sub pl-2">I’m passionate about crafting clear interfaces that help users focus on what really matters.</p>
+                    <div>
+                        <p className="catch-sub pl-2 pt-12">I’m passionate about crafting clear interfaces that help users focus on what really matters.</p>
+                    </div>
                 </div>
 
                 <hr className="border-t-1 my-6 border-black"/>
-                <div className="flex ">
-                    <Play fill="black"/>
-                    <p className="catch-sub pl-2">I can help you with </p>
-                </div>
-                <div className="pl-2">
-                    <div className="flex items-end gap-6 pt-8">
-                        <h1 className="catch-num">01.</h1>
-                        <div>
-                            <p className="catch-title mb-1">Design</p>
-                        </div>
+                <div className="md:p-10">
+                    <div className="flex ">
+                        <Play fill="black"/>
+                        <p className="catch-sub pl-2">I can help you with </p>
                     </div>
-                    <p className="catch-b pt-4">I make web designs, posters, and shirt designs that align with the user needs and requirements.</p>
-                </div>
-                <div className="pl-2">
-                    <div className="flex items-end gap-6 pt-8">
-                        <h1 className="catch-num">02.</h1>
-                        <div>
-                            <p className="catch-title mb-1">Code</p>
+                    <div className="pl-2">
+                        <div className="flex items-end gap-6 pt-8">
+                            <h1 className="catch-num">01.</h1>
+                            <div>
+                                <p className="catch-title mb-1">Design</p>
+                            </div>
                         </div>
+                        <p className="catch-b pt-4">I make web designs, posters, and shirt designs that align with the user needs and requirements.</p>
                     </div>
-                    <p className="catch-b pt-4">Beside designing side, I also involve in the frontend development such as the landing page, and e-invitation.</p>
+                    <div className="pl-2">
+                        <div className="flex items-end gap-6 pt-8">
+                            <h1 className="catch-num">02.</h1>
+                            <div>
+                                <p className="catch-title mb-1">Code</p>
+                            </div>
+                        </div>
+                        <p className="catch-b pt-4">Beside designing side, I also involve in the frontend development such as the landing page, and e-invitation.</p>
+                    </div>
                 </div>
                 {/* <hr className="border-t-1 my-6 border-black"/> */}
                 {/* Engineernest */}
-                <div className="bg-black text-white mt-6 pb-6">
+                <div className="bg-black text-white mt-6 pb-6 md:flex md:p-16">
                     <img src={EnMockup1} alt="" />
                     <div className='px-6'>
                         <h1 className='project-title text-4xl items-start'>Engineernest</h1>
@@ -59,7 +65,7 @@ function Home() {
                     </div>
                 </div>
                 {/* KIT */}
-                <div className="bg-white">
+                <div className="bg-white md:flex md:p-16 md:flex-row-reverse">
                     <img src={KITMockup1} alt="" />
                     <div className='px-6'>
                         <h1 className='project-title text-4xl'>KIT Website</h1>
@@ -73,7 +79,7 @@ function Home() {
                     </div>
                 </div>
                 {/* E-Invitation */}
-                <div className="bg-black text-white mt-6 pb-6">
+                <div className="bg-black text-white mt-6 pb-6 md:flex md:p-16">
                     <img src={EinMockup1} alt="" />
                     <div className='px-6'>
                         <h1 className='project-title text-4xl items-start'>E-Invitation</h1>
@@ -87,8 +93,8 @@ function Home() {
                     </div>
                 </div>
                 {/* Kendo */}
-                <div className="bg-white">
-                    <img src={ShirtMockup1} alt="" />
+                <div className="bg-white md:flex md:p-16 md:flex-row-reverse">
+                    <img src={ShirtMockup1} className="md:w-72 md:h-auto" alt="" />
                     <div className='px-6'>
                         <h1 className='project-title text-4xl'>Kendo Shirt</h1>
                         <p className='catch-b mt-6'>Designing the t-shirt for Japanese Kendo Club in Thailand that showcases both cultures.</p>
@@ -101,7 +107,7 @@ function Home() {
                     </div>
                 </div>
 
-                <hr className="border-t-1 my-6 border-black"/>
+                <hr className="border-t-1 my-6 md:mt-0 border-black"/>
 
                 <div className="px-6 pb-6">
                     <p className="catch-sub mb-4">Thank you for your interest in my work!</p>
